@@ -1,0 +1,191 @@
+:root {
+  --accent: #3c91e6;
+  --white: #fbfefb;
+  --black: #000000;
+  --green: rgb(113, 209, 34);
+}
+
+html,
+body {
+  background-color: var(--white);
+  font-family: "Futura", "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+h2,
+h3,
+h4,
+span,
+p {
+  color: var(--black);
+}
+
+h1 {
+  color: var(--black);
+  padding: 0 0 0 10px;
+}
+
+header {
+  /* padding: 0px;
+  width: 100%; */
+  font-family: "Futura", "Open Sans", sans-serif;
+  font-weight: normal;
+  color: var(--white);
+  background-color: var(--green);
+  margin: 0;
+}
+
+.nav-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Futura", "Open Sans", sans-serif;
+  font-weight: normal;
+  color: var(--black);
+  padding: 0 30px;
+  max-width: 1200px;
+  background: none;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+#introduction {
+  text-align: center;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.main-nav a {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.student-profile {
+  display: grid;
+  grid-template-areas:
+    "name name name"
+    "map map map"
+    "origin residency hobby";
+  grid-gap: 10px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.erick-origin-image {
+  background: url("img/aruba.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.erick-residency-image {
+  background: url("img/germany.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.erick-hobby-image {
+  background: url("img/erik_yohann.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.richard-residency-image {
+  background: url("img/dresden.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.richard-origin-image {
+  background: url("img/robinhood.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.richard-hobby-image {
+  background: url("img/dog.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dirk-residency-image {
+  background: url("img/dirk_berlin.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dirk-origin-image {
+  background: url("img/dirk_origin.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dirk-hobby-image {
+  background: url("img/dirk_chili.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.name {
+  grid-area: name;
+  margin: 0 auto;
+}
+
+.origin {
+  grid-area: origin;
+  text-align: center;
+}
+
+.map {
+  grid-area: map;
+  margin: 0 auto;
+}
+
+.resident {
+  grid-area: residency;
+  text-align: center;
+}
+
+.hobby {
+  grid-area: hobby;
+  text-align: center;
+}
+
+.hobby-image {
+  height: 200px;
+  width: auto;
+}
+
+.contactform {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(113, 209, 34);
+  padding: 30px 0 60px 0;
+}
