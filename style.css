@@ -186,6 +186,6 @@ a:hover {
 .contactform {
   margin: 0 auto;
   text-align: center;
-  background-color: rgb(113, 209, 34);
+  background-color: var(--green);
   padding: 30px 0 60px 0;
 }
